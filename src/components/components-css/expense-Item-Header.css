@@ -1,0 +1,17 @@
+.expense-Item-Header,
+.header-Tag-Expense-Item {
+  text-align: left;
+  margin: 0px 25%;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.15em;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #040303;
+}
+
+.expense-Item-Date {
+  padding: 0px 10px 10px 10px;
+  width: 100px;
+  text-align: center;
+}
+

@@ -1,0 +1,96 @@
+.expense-Item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f433;
+  margin: 20px 10px 10px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  letter-spacing: 0.35rem;
+  padding: 20px;
+}
+
+.expense-Item-App {
+  margin: 30px;
+  padding: 10px 0px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.expense-Item-Content {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25%;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    color: #040303;
+  }
+  
+  .expense-Item-Title {
+    width: 200px;
+  }
+
+  
+.expense-Item-Amount {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px;
+    width: 100px;
+  }
+ 
+  .icon {
+    font-size: 23px;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .noContent{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+
+  }
+
+
+
+/* CSS */
+.expense-Button {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  padding: 4px 2px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.expense-Button:active,
+.expense-Button:hover {
+  outline: 0;
+}
+
+.expense-Button:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .expense-Button {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+  

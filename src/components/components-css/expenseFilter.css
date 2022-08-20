@@ -1,0 +1,22 @@
+.dropDownList{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin: 20px;
+
+
+}
+
+.labelYear{
+    padding: 5px 20px;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
+   
+}
+
+.select{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}

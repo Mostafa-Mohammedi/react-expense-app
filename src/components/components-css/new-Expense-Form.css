@@ -1,0 +1,93 @@
+.new-Expense-Form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0px 25%;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.15em;
+  color: #040303;
+}
+
+.new-Expense-Title {
+  padding: 20px 0px;
+  width: 400px;
+}
+
+.new-Expense-Amount {
+  padding: 20px 0px;
+
+  width: 400px;
+}
+
+.new-Expense-Date {
+  width: 400px;
+  order: 2;
+}
+
+label {
+  display: block;
+  padding: 10px 0px;
+  margin: 5px 0px;
+  text-transform: capitalize;
+
+}
+
+input {
+  display: block;
+  padding: 10px 30px;
+  margin: 5px 0px;
+
+}
+
+/* CSS */
+.new-Expense-button {
+  order: 2;
+  align-self: center;
+  background-color: #fafbfc;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.new-Expense-button {
+  background-color: rgb(249,250,251);
+}
+
+.new-Expense-button:hover {
+  outline: 4px solid transparent;
+  outline-offset: 2px;
+}
+
+.new-Expense-button:focus-visible {
+  box-shadow: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
