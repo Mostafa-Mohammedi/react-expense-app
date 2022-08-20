@@ -44,7 +44,7 @@ function App() {
     <div className="App">
       <div className="app-header">
         <h1>Mostafa Mohammedi</h1>
-        <h2>Expsense frontend</h2>
+        <h2>Exspense frontend</h2>
       </div>
       <Card className="expense-Item-App">
       <NewExpense onAddExpsense={addExpenseHandler}/>
